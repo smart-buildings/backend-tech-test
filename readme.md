@@ -1,10 +1,10 @@
 # Tech test
 
-## Overview
+## Overview
 
 Smart Buildings has deployed air quality devices to offices around the world for a theoretical customer. An application is required to consume the data outputted by the sensors and provide ratings on the air quality and the comfort of the office spaces.
 
-## Information provided the sensors
+## Information provided the sensors
 
 |Reading|Ideal Min|Ideal Max|Notes|
 |---|---|---|---|
@@ -23,7 +23,7 @@ The MQTT topic format is described below:
 e.g. `smart/leeds/5/relative-humidity`
 
 
-## The challenge
+## The challenge
 
 - Subscribe to the MQTT broker
 - Create a rating system on Air Quality and Comfort based on the notes above. The further outside the ideal the reading, the more severe the rating should be.
