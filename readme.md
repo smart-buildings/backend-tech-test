@@ -13,7 +13,7 @@ Smart Buildings has deployed air quality devices to offices around the world for
 |PM2.5|0 μg/m3|12 μg/m3|Unsafe above 12ppm|
 |Space Temperature|21°C|23°C|Uncomfortable outside of ideal, unsafe below 16°C|
 
-## How the sensors provide data
+## How the sensors provide data
 
 On reading change, the sensors publish to a [MQTT](http://mqtt.org/) Broker.
 
