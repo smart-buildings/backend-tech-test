@@ -1,0 +1,9 @@
+version: '3'
+services:
+    sensors:
+        image: smartbuildingsltd/sensor-mock-data-publisher:latest
+    
+    mqtt:
+        image: toke/mosquitto:latest
+        ports:
+            - "1883:1883"
